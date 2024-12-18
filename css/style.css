@@ -5,6 +5,8 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+
+/* header part start */
 header{
     display: flex;
     align-items: center;
@@ -69,6 +71,10 @@ header{
     border-radius: 15px;
     font-weight: bold;
 }
+
+/* header section ended */
+
+/* banner part started */
 .banner-section{
     margin: auto;
     max-width: 1280px;
@@ -76,6 +82,10 @@ header{
 .banner-section img{
     width: 100%;
 }
+
+/* banner section ended */
+
+/* multi banner part started */
 .multi-banner{
     display: flex;
     margin: auto;
@@ -88,6 +98,9 @@ header{
 .multi-banner-item img{
     width: 100%;
 }
+/* multi banner part ended */
+
+/* product section started */
 .product-section{
     display: flex;
     margin: auto;
@@ -100,6 +113,9 @@ header{
 .product-items img{
     width: 100%;
 }
+/* product section ended */
+
+/* add in cart part started */
 .add-product{
     padding: 30px 0px;
     margin: auto;
@@ -176,7 +192,9 @@ header{
     border: 1px solid #328839;
     border-radius: 10px;
 }
+/* add cart part ended */
 
+/* footer part started */
 footer{
     padding: 40px 0px 0px 0px;
 }
@@ -275,4 +293,4 @@ footer{
     gap: 10px;
     align-items: center;
 }
-
+/* footer part ended */
